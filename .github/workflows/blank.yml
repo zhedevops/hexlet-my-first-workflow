@@ -20,6 +20,9 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
+      # экшен — выполняет какую-то задачу
+      # checkout — клонирует репозиторий
+      - uses: actions/checkout@v3
       # Runs a single command using the runners shell
       - name: say-hello
         run: make say-hello
