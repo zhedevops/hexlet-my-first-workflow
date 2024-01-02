@@ -5,4 +5,4 @@ test:
 	npm test
 
 ver:
-	node - v
+	node -v
