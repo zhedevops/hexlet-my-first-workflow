@@ -3,3 +3,6 @@ say-hello:
 
 test:
 	npm test
+
+ver:
+	node - v
